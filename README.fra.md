@@ -1,4 +1,4 @@
-# X Macros pour la génération automatique de type [enum](https://fr.wikipedia.org/wiki/Type_%C3%A9num%C3%A9r%C3%A9#Langage_C) 
+# [X Macros](https://en.wikipedia.org/wiki/X_Macro) pour la génération automatique de type [enum](https://fr.wikipedia.org/wiki/Type_%C3%A9num%C3%A9r%C3%A9#Langage_C) 
 
 [GLOBISH: https://github.com/Romain7426/X_Macros_-_Enum/blob/main/README.eng.md](https://github.com/Romain7426/X_Macros_-_Enum/blob/main/README.eng.md)
 
@@ -6,7 +6,7 @@ Bonjour tout le monde! ☺
 
 J'en suis venu à cette problématique pour: 
  - pour générer automatiquement des types [enums](https://fr.wikipedia.org/wiki/Type_%C3%A9num%C3%A9r%C3%A9#Langage_C) 
- - puissance du langage de macros 
+ - puissance du langage de macros (en l'espèce, les [X Macros](https://en.wikipedia.org/wiki/X_Macro)) 
 
 
 À ÉCRIRE 
