@@ -34,7 +34,7 @@ clean:
 
 
 #PROJECT_NAME := $(shell ./tools/bin/filename_without_path $$PWD)
-PROJECT_NAME := macros-arithmetique
+PROJECT_NAME := x_macros_-_enum
 DATETIME_UTC := $(shell TZ="UTC" date "+%Z[%z] %Y_%m_%d-%Hh%Mm%Ss %A")
 #CC           := $(if $(strip $(CC)),$(if $(strip $(filter $(CC),cc)),$(shell which cc),$(CC)),$(shell which cc))
 #$(info $(origin CC)) # returns "undefined" or something else 
