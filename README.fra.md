@@ -11,7 +11,7 @@ J'en suis venu à cette problématique pour:
 
 À ÉCRIRE 
  
-Le plus simple est de consulter directement le fichier [main.c](https://github.com/Romain7426/X_Macros_-_Enum/blob/main/src/main.c). 
+Le plus simple est de consulter directement le fichier [main.c](https://github.com/Romain7426/X_Macros_-_Enum/blob/main/src/main.c) puis le fichier [decimal.h](https://github.com/Romain7426/X_Macros_-_Enum/blob/main/src/decimal.h). 
 
 
 
