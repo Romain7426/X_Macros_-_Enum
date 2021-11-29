@@ -47,6 +47,7 @@ enum { undecided_boolean = 1+MAX(BOOL_ABS(false),BOOL_ABS(true)) };
 #endif 
 
 
+#ifndef __PCC__ 
 #define DIGIT_TO_STRING(d) (			\
 			    (d) == 0 ? "0" :	\
 			    (d) == 1 ? "1" :	\
@@ -59,6 +60,7 @@ enum { undecided_boolean = 1+MAX(BOOL_ABS(false),BOOL_ABS(true)) };
 			    (d) == 8 ? "8" :	\
 			    (d) == 9 ? "9" :	\
 			    "?")
+#endif 
 
 #define DIGIT_TO_CHAR(d) (((d) >= 0 && (d) <= 9) ? '0' + (d) : '?') 
 
@@ -139,6 +141,7 @@ enum { undecided_boolean = 1+MAX(BOOL_ABS(false),BOOL_ABS(true)) };
 
 #define GET_LOG2_VALUE_AS_ENUM LOG2 
 
+#ifndef __PCC__ 
 #define LOG2_POS(VALUE)						\
   ((VALUE) <  0) ? -2 :						\
   ((VALUE) == 0) ? ((~0) << ((sizeof((VALUE)) << 3) - 1)) :	\
@@ -208,6 +211,9 @@ enum { undecided_boolean = 1+MAX(BOOL_ABS(false),BOOL_ABS(true)) };
     ((VALUE) >> 62) == 1 ? 62 :					\
     ((VALUE) >> 63) == 1 ? 63 :					\
     64 
+#else 
+#define LOG2_POS(VALUE)	64 
+#endif 
  
 #define LOG2(VALUE) ((VALUE) < 0 ? LOG2_POS(-(VALUE)) : LOG2_POS(VALUE)) 
 

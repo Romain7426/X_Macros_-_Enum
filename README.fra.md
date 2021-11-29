@@ -44,10 +44,10 @@ Plaintes
  - Pour les autres plaintes, a priori, je ne sais pas. 
  
 [Compilateurs](https://fr.wikipedia.org/wiki/Compilateur) testés: 
- - [clang](https://fr.wikipedia.org/wiki/Clang)
- - [gcc11](https://fr.wikipedia.org/wiki/GNU_Compiler_Collection)
- - [tcc](https://en.wikipedia.org/wiki/Tiny_C_Compiler)
- - Hélas [pcc](https://en.wikipedia.org/wiki/Portable_C_Compiler) se plaint lors de la compilation. 
+ - [clang](https://fr.wikipedia.org/wiki/Clang): 86k 
+ - [gcc11](https://fr.wikipedia.org/wiki/GNU_Compiler_Collection): 170k 
+ - [tcc](https://en.wikipedia.org/wiki/Tiny_C_Compiler): 134k 
+ - [pcc](https://en.wikipedia.org/wiki/Portable_C_Compiler): 82k 
  - D'autres? 
 
 [Systèmes](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27exploitation) testés: 
