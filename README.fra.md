@@ -79,7 +79,7 @@ Nous ne portons aucun intérêt à la [propriété intellectuelle](https://fr.wi
 
 Nous aurions bien laissé ce programme dans le [domaine public](https://fr.wikipedia.org/wiki/Domaine_public_(propri%C3%A9t%C3%A9_intellectuelle)), mais il semblerait que il existerait une possibilité pour s'approprier du matériel qui serait dans le domaine public, et d'en restreindre rétrospectivement l'accès. Afin de prévenir ce cas dégénéré, ce programme a été publié sous une licence équivalente à la [licence ISC](https://fr.wikipedia.org/wiki/Licence_ISC), mais en plus relâchée (cf. le fichier [COPYING](https://github.com/Romain7426/X_Macros_-_Enum/blob/main/COPYING) pour la consulter in extenso). En ce qui nous concerne, vous pouvez faire ce que vous voulez avec ce programme et son code, dans la mesure vous n'empêchez personne de l'utiliser, y compris nous-mêmes. 
  
-A posteriori, nous venons de nous rendre compte que nous avions réalisé l'équivalent d'une [0BSD](https://en.wikipedia.org/wiki/BSD_licenses#0-clause_license_("BSD_Zero_Clause_License")). 
+A posteriori, nous venons de nous rendre compte que nous avions réalisé l'équivalent d'une licence [0BSD](https://en.wikipedia.org/wiki/BSD_licenses#0-clause_license_("BSD_Zero_Clause_License")). 
 
 
 
