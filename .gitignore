@@ -3,6 +3,7 @@ run
 tools/bin
 tools/build
 build
+destroot
 
 # Prerequisites
 *.d
