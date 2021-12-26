@@ -64,7 +64,7 @@ Dépendances:
  
 Nota bene: 
  - Si la compilation des outils prend trop de temps, on peut l'éviter et passer directement à la génération du [Makefile](https://fr.wikipedia.org/wiki/Make#Makefile): 
-    $ gmake -r -R -S -j 1 --warn-undefined-variables -f ./Makefile-gen.mkf  
+    <br> $ gmake -r -R -S -j 1 --warn-undefined-variables -f ./Makefile-gen.mkf  
 
 
 ## Auteurs  
