@@ -1,1 +1,1 @@
-cc
+cc-larmel_simple_c_compiler
